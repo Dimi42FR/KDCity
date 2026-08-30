@@ -1,3 +1,4 @@
+# force re-registration du schedule
 name: Update KDCity stats
 
 on:
