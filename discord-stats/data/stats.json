@@ -1,0 +1,21 @@
+{
+  "players": {
+    "Srauld": {
+      "deaths": 0,
+      "joins": 2,
+      "lastSeen": "2026-08-30T01:25:17.408Z"
+    },
+    "Dimi": {
+      "deaths": 4,
+      "joins": 2,
+      "lastSeen": "2026-08-30T01:25:17.410Z"
+    },
+    "Dimi42FR": {
+      "deaths": 8,
+      "joins": 6,
+      "lastSeen": "2026-08-30T01:25:17.411Z"
+    }
+  },
+  "totalDeaths": 12,
+  "updatedAt": "2026-08-30T01:25:17.411Z"
+}
