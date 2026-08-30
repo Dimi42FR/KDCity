@@ -38,47 +38,28 @@ const QUIT_RE = /(\w+) left the game/i
 
 function ensurePlayer(stats, name) {
   if (!stats.players[name]) {
-    stats.players[name] = {
-      deaths: 0,
-      joins: 0,
-      lastSeen: null,
-      playtimeMinutes: 0,
-      sessionStart: null,
-    }
+    stats.players[name] = { deaths: 0, joins: 0, lastSeen: null }
   }
   return stats.players[name]
 }
 
-function parseLine(stats, content, timestamp) {
-  const ts = timestamp || new Date().toISOString()
+function parseLine(stats, content) {
   let m
   if ((m = DEATH_NOTICE_RE.exec(content))) {
     const p = ensurePlayer(stats, m[1])
     p.deaths++
-    p.lastSeen = ts
+    p.lastSeen = new Date().toISOString()
     stats.totalDeaths = (stats.totalDeaths || 0) + 1
     return true
   }
   if ((m = JOIN_RE.exec(content))) {
     const p = ensurePlayer(stats, m[1])
     p.joins++
-    p.lastSeen = ts
-    if (p.sessionStart) {
-      // Session déjà ouverte (ex: crash serveur, "left" jamais reçu) → on la réinitialise
-      console.warn(`⚠️ ${m[1]} avait une session non fermée, réinitialisée.`)
-    }
-    p.sessionStart = ts
+    p.lastSeen = new Date().toISOString()
     return true
   }
   if ((m = QUIT_RE.exec(content))) {
-    const p = ensurePlayer(stats, m[1])
-    p.lastSeen = ts
-    if (p.sessionStart) {
-      const minutes = Math.max(0, Math.round((new Date(ts) - new Date(p.sessionStart)) / 60000))
-      p.playtimeMinutes = (p.playtimeMinutes || 0) + minutes
-      stats.totalPlaytimeMinutes = (stats.totalPlaytimeMinutes || 0) + minutes
-      p.sessionStart = null
-    }
+    ensurePlayer(stats, m[1]).lastSeen = new Date().toISOString()
     return true
   }
   return false
@@ -90,15 +71,15 @@ async function fetchMessagesAfter(afterId) {
   let after = afterId
 
   for (let page = 0; page < 20; page++) { // garde-fou : 20 pages max par run (2000 messages)
-    const url = new URL(`https://discord.com/api/v10/channels/${CHANNEL_ID}/messages`)
+    const url = new URL(https://discord.com/api/v10/channels/${CHANNEL_ID}/messages)
     url.searchParams.set('limit', '100')
     if (after) url.searchParams.set('after', after)
 
     const res = await fetch(url, {
-      headers: { Authorization: `Bot ${BOT_TOKEN}` },
+      headers: { Authorization: Bot ${BOT_TOKEN} },
     })
     if (!res.ok) {
-      throw new Error(`Discord API ${res.status}: ${await res.text()}`)
+      throw new Error(Discord API ${res.status}: ${await res.text()})
     }
     const batch = await res.json()
     if (batch.length === 0) break
@@ -112,18 +93,18 @@ async function fetchMessagesAfter(afterId) {
 }
 
 async function main() {
-  const stats = loadJson(STATS_FILE, { players: {}, totalDeaths: 0, totalPlaytimeMinutes: 0, updatedAt: null })
+  const stats = loadJson(STATS_FILE, { players: {}, totalDeaths: 0, updatedAt: null })
   const cursor = loadJson(CURSOR_FILE, { lastMessageId: null })
 
   const messages = await fetchMessagesAfter(cursor.lastMessageId)
-  console.log(`📥 ${messages.length} nouveau(x) message(s) à traiter.`)
+  console.log(📥 ${messages.length} nouveau(x) message(s) à traiter.)
 
   let changed = false
   for (const msg of messages) {
     // Les logs peuvent être multi-lignes dans un seul message, ou en embed
-    const text = msg.content || (msg.embeds || []).map(e => `${e.title || ''}\n${e.description || ''}`).join('\n')
+    const text = msg.content || (msg.embeds || []).map(e => ${e.title || ''}\n${e.description || ''}).join('\n')
     for (const line of text.split('\n')) {
-      if (parseLine(stats, line, msg.timestamp)) changed = true
+      if (parseLine(stats, line)) changed = true
     }
     cursor.lastMessageId = msg.id
   }
