@@ -1,0 +1,33 @@
+name: Update KDCity stats
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # toutes les 15 minutes
+  workflow_dispatch: {}       # bouton "Run workflow" manuel dans l'onglet Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Récupérer et parser les nouveaux logs Discord
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          LOG_CHANNEL_ID: ${{ secrets.LOG_CHANNEL_ID }}
+        run: node discord-stats/update-stats.js
+
+      - name: Commit et push si changement
+        run: |
+          git config user.name "kdcity-stats-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add discord-stats/data/stats.json discord-stats/data/cursor.json
+          git diff --cached --quiet || git commit -m "chore: update stats [skip ci]"
+          git push
