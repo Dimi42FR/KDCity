@@ -13,12 +13,12 @@
     "Dimi42FR": {
       "deaths": 8,
       "joins": 25,
-      "lastSeen": "2026-08-30T07:44:55.736000+00:00",
-      "sessionStart": "2026-08-30T07:44:55.736000+00:00",
-      "playtimeMinutes": 60
+      "lastSeen": "2026-08-30T07:57:42.340000+00:00",
+      "sessionStart": null,
+      "playtimeMinutes": 73
     }
   },
   "totalDeaths": 12,
-  "updatedAt": "2026-08-30T07:45:24.891Z",
-  "totalPlaytimeMinutes": 60
+  "updatedAt": "2026-08-30T08:00:41.738Z",
+  "totalPlaytimeMinutes": 73
 }
