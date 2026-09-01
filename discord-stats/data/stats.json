@@ -19,13 +19,13 @@
     },
     "Kamikaze": {
       "deaths": 0,
-      "joins": 0,
-      "lastSeen": "2026-09-01T22:57:43.658000+00:00",
+      "joins": 1,
+      "lastSeen": "2026-09-01T23:24:57.128000+00:00",
       "playtimeMinutes": 0,
-      "sessionStart": null
+      "sessionStart": "2026-09-01T23:24:57.128000+00:00"
     }
   },
   "totalDeaths": 12,
-  "updatedAt": "2026-09-01T23:00:50.910Z",
+  "updatedAt": "2026-09-01T23:30:35.345Z",
   "totalPlaytimeMinutes": 76
 }
