@@ -23,9 +23,16 @@
       "lastSeen": "2026-09-02T00:12:29.877000+00:00",
       "playtimeMinutes": 48,
       "sessionStart": null
+    },
+    "LabIsBack": {
+      "deaths": 0,
+      "joins": 1,
+      "lastSeen": "2026-09-15T00:05:51.108000+00:00",
+      "playtimeMinutes": 0,
+      "sessionStart": "2026-09-15T00:05:51.108000+00:00"
     }
   },
   "totalDeaths": 14,
-  "updatedAt": "2026-09-12T10:15:33.156Z",
+  "updatedAt": "2026-09-15T00:15:31.947Z",
   "totalPlaytimeMinutes": 130
 }
