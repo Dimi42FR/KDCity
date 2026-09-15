@@ -25,14 +25,14 @@
       "sessionStart": null
     },
     "LabIsBack": {
-      "deaths": 0,
+      "deaths": 2,
       "joins": 1,
-      "lastSeen": "2026-09-15T00:05:51.108000+00:00",
-      "playtimeMinutes": 0,
-      "sessionStart": "2026-09-15T00:05:51.108000+00:00"
+      "lastSeen": "2026-09-15T00:25:22.550000+00:00",
+      "playtimeMinutes": 20,
+      "sessionStart": null
     }
   },
-  "totalDeaths": 14,
-  "updatedAt": "2026-09-15T00:15:31.947Z",
-  "totalPlaytimeMinutes": 130
+  "totalDeaths": 16,
+  "updatedAt": "2026-09-15T00:30:40.511Z",
+  "totalPlaytimeMinutes": 150
 }
