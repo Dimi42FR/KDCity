@@ -58,9 +58,16 @@
       "lastSeen": "2026-10-07T16:17:51.725000+00:00",
       "playtimeMinutes": 280,
       "sessionStart": null
+    },
+    "mts": {
+      "deaths": 2,
+      "joins": 0,
+      "lastSeen": "2026-10-07T18:26:56.656000+00:00",
+      "playtimeMinutes": 0,
+      "sessionStart": null
     }
   },
-  "totalDeaths": 30,
-  "updatedAt": "2026-10-07T16:30:46.713Z",
+  "totalDeaths": 32,
+  "updatedAt": "2026-10-07T18:30:43.858Z",
   "totalPlaytimeMinutes": 882
 }
