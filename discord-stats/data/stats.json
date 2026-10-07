@@ -32,21 +32,21 @@
       "sessionStart": null
     },
     "Player": {
-      "deaths": 5,
+      "deaths": 6,
       "joins": 1,
-      "lastSeen": "2026-10-06T23:58:00.143000+00:00",
+      "lastSeen": "2026-10-06T23:58:19.980000+00:00",
       "playtimeMinutes": 0,
       "sessionStart": "2026-10-06T23:54:26.247000+00:00"
     },
     "UraGames": {
       "deaths": 1,
       "joins": 1,
-      "lastSeen": "2026-10-06T23:58:00.143000+00:00",
-      "playtimeMinutes": 0,
-      "sessionStart": "2026-10-06T23:57:26.203000+00:00"
+      "lastSeen": "2026-10-06T23:58:19.980000+00:00",
+      "playtimeMinutes": 1,
+      "sessionStart": null
     }
   },
-  "totalDeaths": 22,
-  "updatedAt": "2026-10-06T23:58:08.523Z",
-  "totalPlaytimeMinutes": 150
+  "totalDeaths": 23,
+  "updatedAt": "2026-10-07T00:00:57.282Z",
+  "totalPlaytimeMinutes": 151
 }
