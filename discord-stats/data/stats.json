@@ -12,9 +12,9 @@
     },
     "Dimi42FR": {
       "deaths": 10,
-      "joins": 33,
-      "lastSeen": "2026-10-07T00:31:02.282000+00:00",
-      "sessionStart": null,
+      "joins": 34,
+      "lastSeen": "2026-10-07T01:16:02.647000+00:00",
+      "sessionStart": "2026-10-07T01:16:02.647000+00:00",
       "playtimeMinutes": 111
     },
     "Kamikaze": {
@@ -61,6 +61,6 @@
     }
   },
   "totalDeaths": 23,
-  "updatedAt": "2026-10-07T01:15:29.254Z",
+  "updatedAt": "2026-10-07T01:30:40.983Z",
   "totalPlaytimeMinutes": 198
 }
