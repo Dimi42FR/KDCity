@@ -13,8 +13,8 @@
     "Dimi42FR": {
       "deaths": 10,
       "joins": 33,
-      "lastSeen": "2026-10-07T00:30:33.814000+00:00",
-      "sessionStart": "2026-10-07T00:30:33.814000+00:00",
+      "lastSeen": "2026-10-07T00:31:02.282000+00:00",
+      "sessionStart": null,
       "playtimeMinutes": 111
     },
     "Kamikaze": {
@@ -47,20 +47,20 @@
     },
     "Kyden": {
       "deaths": 0,
-      "joins": 1,
-      "lastSeen": "2026-10-07T00:02:34.116000+00:00",
+      "joins": 2,
+      "lastSeen": "2026-10-07T00:40:04.095000+00:00",
       "playtimeMinutes": 0,
-      "sessionStart": "2026-10-07T00:02:34.116000+00:00"
+      "sessionStart": "2026-10-07T00:40:04.095000+00:00"
     },
     "Stessy": {
       "deaths": 0,
-      "joins": 1,
-      "lastSeen": "2026-10-07T00:24:00.605000+00:00",
+      "joins": 2,
+      "lastSeen": "2026-10-07T00:40:07.320000+00:00",
       "playtimeMinutes": 0,
-      "sessionStart": "2026-10-07T00:24:00.605000+00:00"
+      "sessionStart": "2026-10-07T00:40:07.320000+00:00"
     }
   },
   "totalDeaths": 23,
-  "updatedAt": "2026-10-07T00:30:42.700Z",
+  "updatedAt": "2026-10-07T00:45:28.434Z",
   "totalPlaytimeMinutes": 189
 }
