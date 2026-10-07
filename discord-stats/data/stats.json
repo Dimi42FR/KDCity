@@ -11,9 +11,9 @@
       "lastSeen": "2026-08-30T01:25:17.410Z"
     },
     "Dimi42FR": {
-      "deaths": 10,
+      "deaths": 13,
       "joins": 36,
-      "lastSeen": "2026-10-07T02:29:37.012000+00:00",
+      "lastSeen": "2026-10-07T02:38:58.497000+00:00",
       "sessionStart": "2026-10-07T02:29:37.012000+00:00",
       "playtimeMinutes": 183
     },
@@ -53,14 +53,14 @@
       "sessionStart": "2026-10-07T01:09:36.027000+00:00"
     },
     "Stessy": {
-      "deaths": 0,
+      "deaths": 2,
       "joins": 6,
-      "lastSeen": "2026-10-07T01:50:30.051000+00:00",
+      "lastSeen": "2026-10-07T02:36:43.624000+00:00",
       "playtimeMinutes": 45,
       "sessionStart": "2026-10-07T01:50:30.051000+00:00"
     }
   },
-  "totalDeaths": 23,
-  "updatedAt": "2026-10-07T02:30:42.733Z",
+  "totalDeaths": 28,
+  "updatedAt": "2026-10-07T02:45:29.748Z",
   "totalPlaytimeMinutes": 310
 }
