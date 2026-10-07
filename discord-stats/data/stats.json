@@ -53,14 +53,14 @@
       "sessionStart": "2026-10-07T13:39:14.005000+00:00"
     },
     "Stessy": {
-      "deaths": 2,
-      "joins": 8,
-      "lastSeen": "2026-10-07T14:07:45.594000+00:00",
-      "playtimeMinutes": 150,
-      "sessionStart": "2026-10-07T14:07:45.594000+00:00"
+      "deaths": 4,
+      "joins": 9,
+      "lastSeen": "2026-10-07T16:17:51.725000+00:00",
+      "playtimeMinutes": 280,
+      "sessionStart": null
     }
   },
-  "totalDeaths": 28,
-  "updatedAt": "2026-10-07T14:15:30.279Z",
-  "totalPlaytimeMinutes": 589
+  "totalDeaths": 30,
+  "updatedAt": "2026-10-07T16:17:55.403Z",
+  "totalPlaytimeMinutes": 719
 }
