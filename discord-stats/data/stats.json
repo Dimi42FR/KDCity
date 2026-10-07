@@ -34,9 +34,9 @@
     "Player": {
       "deaths": 6,
       "joins": 1,
-      "lastSeen": "2026-10-06T23:58:19.980000+00:00",
-      "playtimeMinutes": 0,
-      "sessionStart": "2026-10-06T23:54:26.247000+00:00"
+      "lastSeen": "2026-10-07T00:03:10.249000+00:00",
+      "playtimeMinutes": 9,
+      "sessionStart": null
     },
     "UraGames": {
       "deaths": 1,
@@ -44,9 +44,16 @@
       "lastSeen": "2026-10-06T23:58:19.980000+00:00",
       "playtimeMinutes": 1,
       "sessionStart": null
+    },
+    "Kyden": {
+      "deaths": 0,
+      "joins": 1,
+      "lastSeen": "2026-10-07T00:02:34.116000+00:00",
+      "playtimeMinutes": 0,
+      "sessionStart": "2026-10-07T00:02:34.116000+00:00"
     }
   },
   "totalDeaths": 23,
-  "updatedAt": "2026-10-07T00:00:57.282Z",
-  "totalPlaytimeMinutes": 151
+  "updatedAt": "2026-10-07T00:15:27.467Z",
+  "totalPlaytimeMinutes": 160
 }
