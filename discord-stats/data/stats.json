@@ -48,9 +48,9 @@
     "Kyden": {
       "deaths": 0,
       "joins": 6,
-      "lastSeen": "2026-10-07T13:39:14.005000+00:00",
-      "playtimeMinutes": 152,
-      "sessionStart": "2026-10-07T13:39:14.005000+00:00"
+      "lastSeen": "2026-10-07T16:21:47.162000+00:00",
+      "playtimeMinutes": 315,
+      "sessionStart": null
     },
     "Stessy": {
       "deaths": 4,
@@ -61,6 +61,6 @@
     }
   },
   "totalDeaths": 30,
-  "updatedAt": "2026-10-07T16:17:55.403Z",
-  "totalPlaytimeMinutes": 719
+  "updatedAt": "2026-10-07T16:30:46.713Z",
+  "totalPlaytimeMinutes": 882
 }
