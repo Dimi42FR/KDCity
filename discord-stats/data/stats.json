@@ -17,9 +17,9 @@
       "sessionStart": null,
       "playtimeMinutes": 209,
       "level": 4,
-      "xp": 698,
-      "snacks": 0,
-      "lastLauncherPush": "2026-10-11T02:16:25.672Z"
+      "xp": 739,
+      "snacks": 1,
+      "lastLauncherPush": "2026-10-11T02:17:48.899Z"
     },
     "Kamikaze": {
       "deaths": 0,
@@ -76,6 +76,6 @@
     }
   },
   "totalDeaths": 34,
-  "updatedAt": "2026-10-11T02:16:25.672Z",
+  "updatedAt": "2026-10-11T02:17:48.899Z",
   "totalPlaytimeMinutes": 885
 }
