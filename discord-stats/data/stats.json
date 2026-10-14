@@ -8,7 +8,11 @@
     "Dimi": {
       "deaths": 4,
       "joins": 2,
-      "lastSeen": "2026-08-30T01:25:17.410Z"
+      "lastSeen": "2026-08-30T01:25:17.410Z",
+      "level": 1,
+      "xp": 20,
+      "snacks": 0,
+      "lastLauncherPush": "2026-10-14T17:15:27.764Z"
     },
     "Dimi42FR": {
       "deaths": 13,
@@ -76,6 +80,6 @@
     }
   },
   "totalDeaths": 34,
-  "updatedAt": "2026-10-13T21:30:36.136Z",
+  "updatedAt": "2026-10-14T17:15:27.764Z",
   "totalPlaytimeMinutes": 885
 }
