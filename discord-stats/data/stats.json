@@ -11,8 +11,8 @@
       "lastSeen": "2026-08-30T01:25:17.410Z",
       "level": 3,
       "xp": 210,
-      "snacks": 1,
-      "lastLauncherPush": "2026-10-14T18:31:28.562Z"
+      "snacks": 0,
+      "lastLauncherPush": "2026-10-14T18:46:06.676Z"
     },
     "Dimi42FR": {
       "deaths": 13,
@@ -80,6 +80,6 @@
     }
   },
   "totalDeaths": 34,
-  "updatedAt": "2026-10-14T18:31:28.562Z",
+  "updatedAt": "2026-10-14T18:46:06.676Z",
   "totalPlaytimeMinutes": 885
 }
