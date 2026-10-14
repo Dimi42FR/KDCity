@@ -11,8 +11,8 @@
       "lastSeen": "2026-08-30T01:25:17.410Z",
       "level": 3,
       "xp": 210,
-      "snacks": 0,
-      "lastLauncherPush": "2026-10-14T18:48:05.974Z"
+      "snacks": 1,
+      "lastLauncherPush": "2026-10-14T18:31:28.562Z"
     },
     "Dimi42FR": {
       "deaths": 13,
@@ -20,10 +20,10 @@
       "lastSeen": "2026-10-11T01:25:13.969000+00:00",
       "sessionStart": null,
       "playtimeMinutes": 209,
-      "level": 7,
-      "xp": 2221,
+      "level": 3,
+      "xp": 210,
       "snacks": 0,
-      "lastLauncherPush": "2026-10-13T21:30:36.136Z"
+      "lastLauncherPush": "2026-10-14T18:48:35.419Z"
     },
     "Kamikaze": {
       "deaths": 0,
@@ -80,6 +80,6 @@
     }
   },
   "totalDeaths": 34,
-  "updatedAt": "2026-10-14T18:48:05.974Z",
+  "updatedAt": "2026-10-14T18:48:35.419Z",
   "totalPlaytimeMinutes": 885
 }
