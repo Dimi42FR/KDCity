@@ -23,7 +23,7 @@
       "level": 8,
       "xp": 3799,
       "snacks": 0,
-      "lastLauncherPush": "2026-10-15T01:28:28.511Z"
+      "lastLauncherPush": "2026-10-15T01:15:54.674Z"
     },
     "Kamikaze": {
       "deaths": 0,
@@ -44,7 +44,11 @@
       "joins": 1,
       "lastSeen": "2026-10-07T00:03:10.249000+00:00",
       "playtimeMinutes": 9,
-      "sessionStart": null
+      "sessionStart": null,
+      "level": 1,
+      "xp": 20,
+      "snacks": 1,
+      "lastLauncherPush": "2026-10-15T01:30:43.452Z"
     },
     "UraGames": {
       "deaths": 1,
@@ -80,6 +84,6 @@
     }
   },
   "totalDeaths": 34,
-  "updatedAt": "2026-10-15T01:28:28.511Z",
+  "updatedAt": "2026-10-15T01:30:43.452Z",
   "totalPlaytimeMinutes": 885
 }
