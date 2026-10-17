@@ -16,9 +16,9 @@
     },
     "Dimi42FR": {
       "deaths": 13,
-      "joins": 39,
-      "lastSeen": "2026-10-17T03:11:14.397000+00:00",
-      "sessionStart": "2026-10-17T03:11:14.397000+00:00",
+      "joins": 41,
+      "lastSeen": "2026-10-17T05:28:51.723000+00:00",
+      "sessionStart": null,
       "playtimeMinutes": 209,
       "level": 11,
       "xp": 12369,
@@ -84,6 +84,6 @@
     }
   },
   "totalDeaths": 34,
-  "updatedAt": "2026-10-17T05:07:08.690Z",
+  "updatedAt": "2026-10-17T05:30:43.792Z",
   "totalPlaytimeMinutes": 885
 }
