@@ -30,7 +30,11 @@
       "joins": 1,
       "lastSeen": "2026-09-02T00:12:29.877000+00:00",
       "playtimeMinutes": 48,
-      "sessionStart": null
+      "sessionStart": null,
+      "level": 2,
+      "xp": 165,
+      "snacks": 0,
+      "lastLauncherPush": "2026-10-27T17:55:53.721Z"
     },
     "LabIsBack": {
       "deaths": 2,
@@ -84,6 +88,6 @@
     }
   },
   "totalDeaths": 34,
-  "updatedAt": "2026-10-17T12:59:25.335Z",
+  "updatedAt": "2026-10-27T17:55:53.721Z",
   "totalPlaytimeMinutes": 885
 }
