@@ -50,9 +50,9 @@
       "playtimeMinutes": 9,
       "sessionStart": null,
       "level": 2,
-      "xp": 145,
-      "snacks": 0,
-      "lastLauncherPush": "2026-10-27T18:43:53.172Z"
+      "xp": 155,
+      "snacks": 1,
+      "lastLauncherPush": "2026-10-27T19:07:06.125Z"
     },
     "UraGames": {
       "deaths": 1,
@@ -88,6 +88,6 @@
     }
   },
   "totalDeaths": 34,
-  "updatedAt": "2026-10-27T18:43:53.172Z",
+  "updatedAt": "2026-10-27T19:07:06.125Z",
   "totalPlaytimeMinutes": 885
 }
