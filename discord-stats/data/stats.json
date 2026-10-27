@@ -31,10 +31,10 @@
       "lastSeen": "2026-09-02T00:12:29.877000+00:00",
       "playtimeMinutes": 48,
       "sessionStart": null,
-      "level": 6,
-      "xp": 1590,
-      "snacks": 0,
-      "lastLauncherPush": "2026-10-27T17:57:25.534Z"
+      "level": 23,
+      "xp": 1353740,
+      "snacks": 33,
+      "lastLauncherPush": "2026-10-27T19:14:28.629Z"
     },
     "LabIsBack": {
       "deaths": 2,
@@ -88,6 +88,6 @@
     }
   },
   "totalDeaths": 34,
-  "updatedAt": "2026-10-27T19:07:06.125Z",
+  "updatedAt": "2026-10-27T19:14:28.629Z",
   "totalPlaytimeMinutes": 885
 }
