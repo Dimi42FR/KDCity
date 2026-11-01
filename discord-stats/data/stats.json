@@ -16,9 +16,9 @@
     },
     "Dimi42FR": {
       "deaths": 13,
-      "joins": 45,
-      "lastSeen": "2026-11-01T07:51:59.150000+00:00",
-      "sessionStart": "2026-11-01T07:51:59.150000+00:00",
+      "joins": 46,
+      "lastSeen": "2026-11-01T08:08:12.816000+00:00",
+      "sessionStart": "2026-11-01T08:08:12.816000+00:00",
       "playtimeMinutes": 227,
       "level": 13,
       "xp": 22075,
@@ -88,10 +88,10 @@
     },
     "VEX": {
       "deaths": 0,
-      "joins": 5,
-      "lastSeen": "2026-11-01T07:51:59.150000+00:00",
+      "joins": 6,
+      "lastSeen": "2026-11-01T08:08:44.740000+00:00",
       "playtimeMinutes": 12,
-      "sessionStart": "2026-11-01T07:51:59.150000+00:00",
+      "sessionStart": "2026-11-01T08:08:44.740000+00:00",
       "level": 3,
       "xp": 244,
       "snacks": 4,
@@ -99,6 +99,6 @@
     }
   },
   "totalDeaths": 34,
-  "updatedAt": "2026-11-01T08:00:51.479Z",
+  "updatedAt": "2026-11-01T08:15:32.447Z",
   "totalPlaytimeMinutes": 915
 }
